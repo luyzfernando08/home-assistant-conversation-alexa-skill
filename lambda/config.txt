@@ -1,0 +1,6 @@
+home_assistant_url=https://YOUR-HOME-ASSISTANT-URL/api/conversation/process
+home_assistant_token=YOUR-HOME-ASSISTANT-TOKEN
+home_assistant_agent_id=YOUR-AGENT-ID
+alexa_speak_output=Pronto;Diz aí;Fala;Só falar
+alexa_speak_waiting=Precisa de mais alguma coisa ?
+alexa_bye_bye=Até logo!;Tchau;Se precisar estou aqui;Tô indo nessa;Valeu;Não tem por onde;Bye Bye!;É nóis;Value. Falou.;Tchau amor;Vou sentir saudades. Tchau
