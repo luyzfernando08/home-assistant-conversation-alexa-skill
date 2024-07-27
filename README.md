@@ -48,8 +48,10 @@ Use o Home Assistant Assist Conversation na Alexa 😊
 - O `agent_id` pode ser encontrado no assistente de debug para o seu agente de conversação alvo: 
   1. Acesse **Settings** > **Voice assistants** > **OpenAI** (ou o nome que você deu ao assistente OpenAI) > menu de três pontos > **Debug**.
   2. O `agent_id` será exibido na seção de debug.
-  - Veja a imagem a seguir para referência:
-    ![Debug Assistant](![alt text](image.png))
+  - Veja a imagem a seguir para referência: 
+
+  ![alt text](image.png)
+
 
 ### Deploy da Skill
 1. Faça Build do Modelo e Deploy do Código na aba "Deploy".
