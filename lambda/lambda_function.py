@@ -62,7 +62,7 @@ class HomeAssistantQueryIntentHandler(AbstractRequestHandler):
         logger.info(f"Query received: {query}")
         response = process_conversation(query)
         logger.info(f"Response generated: {response}")
-        return handler_input.response_builder.speak(response).ask(alexa_speak_waiting).response
+        return handler_input.response_builder.speak(f"{response}. {alexa_speak_waiting}").ask(alexa_speak_waiting).response
 
 def process_conversation(query):
     global conversation_id
